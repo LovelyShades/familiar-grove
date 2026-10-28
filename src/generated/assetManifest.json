@@ -1,0 +1,1578 @@
+{
+  "generated": "2026-10-24T03:46:40.674Z",
+  "assets": {
+    "env.sky": {
+      "id": "env.sky",
+      "url": "assets/grove/env.sky.webp",
+      "role": "environment",
+      "source": "environment/sky-twilight.png",
+      "sourceHash": "b4b553b25c5ae6ce24af7a20ebb5f5694a8441d5",
+      "maxSize": null,
+      "sourceSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "hasAlpha": false,
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 1672,
+        "height": 941
+      },
+      "size": {
+        "width": 1672,
+        "height": 941
+      },
+      "scale": 1
+    },
+    "env.mountains": {
+      "id": "env.mountains",
+      "url": "assets/grove/env.mountains.webp",
+      "role": "environment",
+      "source": "environment/mountains-distant.png",
+      "sourceHash": "32c9fc3a6d58b4eded6fcd48b4a5c0273058211f",
+      "maxSize": null,
+      "sourceSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 1672,
+        "height": 941
+      },
+      "size": {
+        "width": 1672,
+        "height": 941
+      },
+      "scale": 1
+    },
+    "env.ruins": {
+      "id": "env.ruins",
+      "url": "assets/grove/env.ruins.webp",
+      "role": "environment",
+      "source": "environment/ruins-distant.png",
+      "sourceHash": "40385af220783211da308fedbb75f6a41fbc2317",
+      "maxSize": null,
+      "sourceSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 1672,
+        "height": 941
+      },
+      "size": {
+        "width": 1672,
+        "height": 941
+      },
+      "scale": 1
+    },
+    "env.distantForest": {
+      "id": "env.distantForest",
+      "url": "assets/grove/env.distantForest.webp",
+      "role": "environment",
+      "source": "environment/forest-distant.png",
+      "sourceHash": "5bc82df378aac09ead97fe00ece98fa7a923c7b4",
+      "maxSize": null,
+      "sourceSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 1672,
+        "height": 941
+      },
+      "size": {
+        "width": 1672,
+        "height": 941
+      },
+      "scale": 1
+    },
+    "env.sideGroves": {
+      "id": "env.sideGroves",
+      "url": "assets/grove/env.sideGroves.webp",
+      "role": "environment",
+      "source": "environment/groves-side.png",
+      "sourceHash": "37aa29a408668b94134588ce647a2b867c95bacc",
+      "maxSize": null,
+      "sourceSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 1672,
+        "height": 941
+      },
+      "size": {
+        "width": 1672,
+        "height": 941
+      },
+      "scale": 1
+    },
+    "env.groundStrip": {
+      "id": "env.groundStrip",
+      "url": "assets/grove/env.groundStrip.webp",
+      "role": "environment",
+      "source": "environment/unused/ground-strip-sideview.png",
+      "sourceHash": "1e1f4a1abb8fdbe49730be4fc8ad9272a199a716",
+      "maxSize": null,
+      "sourceSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 1672,
+        "height": 941
+      },
+      "size": {
+        "width": 1672,
+        "height": 941
+      },
+      "scale": 1
+    },
+    "env.clearing": {
+      "id": "env.clearing",
+      "url": "assets/grove/env.clearing.webp",
+      "role": "terrain",
+      "source": "environment/clearing-mossy.png",
+      "sourceHash": "6d277c1ec66e2633e503133d9771281975bac4fb",
+      "maxSize": 1672,
+      "sourceSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 19,
+        "top": 250,
+        "width": 1636,
+        "height": 599
+      },
+      "size": {
+        "width": 1636,
+        "height": 599
+      },
+      "scale": 1,
+      "topProfile": {
+        "step": 4,
+        "ys": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          517,
+          502,
+          485,
+          481,
+          478,
+          478,
+          475,
+          474,
+          467,
+          464,
+          462,
+          464,
+          462,
+          462,
+          462,
+          409,
+          404,
+          393,
+          389,
+          386,
+          383,
+          383,
+          381,
+          378,
+          373,
+          369,
+          365,
+          366,
+          366,
+          364,
+          360,
+          345,
+          343,
+          341,
+          343,
+          343,
+          342,
+          342,
+          341,
+          340,
+          338,
+          335,
+          333,
+          327,
+          325,
+          321,
+          323,
+          324,
+          326,
+          324,
+          315,
+          312,
+          308,
+          303,
+          303,
+          300,
+          297,
+          295,
+          295,
+          296,
+          295,
+          283,
+          279,
+          277,
+          274,
+          271,
+          269,
+          268,
+          267,
+          265,
+          259,
+          258,
+          260,
+          256,
+          255,
+          255,
+          259,
+          258,
+          259,
+          259,
+          258,
+          255,
+          256,
+          256,
+          252,
+          254,
+          254,
+          254,
+          254,
+          254,
+          255,
+          255,
+          254,
+          254,
+          256,
+          256,
+          257,
+          258,
+          259,
+          262,
+          264,
+          267,
+          269,
+          272,
+          276,
+          277,
+          278,
+          280,
+          280,
+          281,
+          281,
+          281,
+          279,
+          278,
+          280,
+          284,
+          290,
+          291,
+          289,
+          287,
+          286,
+          287,
+          288,
+          288,
+          293,
+          293,
+          296,
+          300,
+          304,
+          309,
+          310,
+          311,
+          312,
+          310,
+          310,
+          312,
+          319,
+          320,
+          324,
+          323,
+          325,
+          324,
+          322,
+          322,
+          320,
+          318,
+          319,
+          319,
+          318,
+          319,
+          321,
+          326,
+          327,
+          329,
+          329,
+          331,
+          332,
+          335,
+          334,
+          336,
+          337,
+          339,
+          342,
+          345,
+          351,
+          353,
+          355,
+          356,
+          358,
+          358,
+          358,
+          358,
+          357,
+          357,
+          354,
+          355,
+          359,
+          359,
+          359,
+          354,
+          351,
+          351,
+          352,
+          352,
+          352,
+          351,
+          352,
+          354,
+          358,
+          359,
+          361,
+          363,
+          366,
+          363,
+          364,
+          365,
+          365,
+          367,
+          370,
+          374,
+          378,
+          382,
+          384,
+          385,
+          385,
+          387,
+          388,
+          388,
+          388,
+          390,
+          390,
+          391,
+          391,
+          391,
+          391,
+          391,
+          392,
+          392,
+          391,
+          391,
+          391,
+          391,
+          391,
+          391,
+          393,
+          394,
+          396,
+          399,
+          401,
+          403,
+          404,
+          405,
+          406,
+          405,
+          405,
+          405,
+          407,
+          407,
+          410,
+          410,
+          410,
+          410,
+          408,
+          407,
+          406,
+          406,
+          404,
+          402,
+          397,
+          394,
+          392,
+          391,
+          390,
+          390,
+          389,
+          391,
+          391,
+          392,
+          390,
+          389,
+          389,
+          388,
+          387,
+          386,
+          384,
+          381,
+          380,
+          378,
+          376,
+          374,
+          372,
+          368,
+          369,
+          367,
+          365,
+          364,
+          364,
+          365,
+          366,
+          368,
+          369,
+          364,
+          364,
+          366,
+          366,
+          366,
+          364,
+          357,
+          356,
+          352,
+          354,
+          352,
+          352,
+          350,
+          350,
+          352,
+          352,
+          355,
+          356,
+          358,
+          359,
+          359,
+          359,
+          359,
+          360,
+          357,
+          351,
+          348,
+          345,
+          344,
+          342,
+          340,
+          339,
+          331,
+          329,
+          326,
+          327,
+          327,
+          327,
+          327,
+          327,
+          325,
+          326,
+          324,
+          321,
+          318,
+          315,
+          315,
+          310,
+          309,
+          305,
+          300,
+          296,
+          296,
+          297,
+          297,
+          296,
+          296,
+          295,
+          295,
+          296,
+          296,
+          300,
+          300,
+          302,
+          302,
+          301,
+          303,
+          303,
+          304,
+          305,
+          307,
+          309,
+          309,
+          310,
+          310,
+          307,
+          307,
+          304,
+          305,
+          307,
+          309,
+          312,
+          312,
+          318,
+          317,
+          318,
+          320,
+          321,
+          324,
+          328,
+          333,
+          337,
+          344,
+          360,
+          360,
+          361,
+          362,
+          366,
+          371,
+          373,
+          383,
+          388,
+          391,
+          398,
+          400,
+          402,
+          406,
+          407,
+          408,
+          407,
+          408,
+          413,
+          424,
+          437,
+          470,
+          485,
+          487,
+          488,
+          491,
+          494,
+          500,
+          503,
+          571,
+          580,
+          587,
+          590,
+          606,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    },
+    "env.stream": {
+      "id": "env.stream",
+      "url": "assets/grove/env.stream.webp",
+      "role": "environment",
+      "source": "environment/stream-crystal-cascades.png",
+      "sourceHash": "b1be7c9073ff2ab7f505516b44a4d12da5809b3a",
+      "maxSize": 1400,
+      "sourceSize": {
+        "width": 2079,
+        "height": 756
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 110,
+        "top": 296,
+        "width": 1860,
+        "height": 342
+      },
+      "size": {
+        "width": 1400,
+        "height": 257
+      },
+      "scale": 0.7526881720430108
+    },
+    "env.heartwood": {
+      "id": "env.heartwood",
+      "url": "assets/grove/env.heartwood.webp",
+      "role": "environment",
+      "source": "environment/heartwood-tree.png",
+      "sourceHash": "b9eb3c7b7a16f643eaec0b122afcc04e36ce657f",
+      "maxSize": 1200,
+      "sourceSize": {
+        "width": 1312,
+        "height": 1199
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 96,
+        "top": 94,
+        "width": 1124,
+        "height": 1035
+      },
+      "size": {
+        "width": 1124,
+        "height": 1035
+      },
+      "scale": 1
+    },
+    "familiar.moonmoth_cat.base": {
+      "id": "familiar.moonmoth_cat.base",
+      "url": "assets/grove/familiar.moonmoth_cat.base.webp",
+      "role": "familiar",
+      "species": "moonmoth_cat",
+      "variant": "base",
+      "source": "creatures/moonmoth-cat/moonmoth-cat_base.png",
+      "sourceHash": "6c37b7bc5b7e2109e5487c58c783c19a68b1c0d8",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1448,
+        "height": 1086
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 57,
+        "top": 67,
+        "width": 1369,
+        "height": 974
+      },
+      "size": {
+        "width": 800,
+        "height": 569
+      },
+      "scale": 0.5843681519357194
+    },
+    "familiar.moonmoth_cat.rare": {
+      "id": "familiar.moonmoth_cat.rare",
+      "url": "assets/grove/familiar.moonmoth_cat.rare.webp",
+      "role": "familiar",
+      "species": "moonmoth_cat",
+      "variant": "rare",
+      "source": "creatures/moonmoth-cat/moonmoth-cat_rare_eclipse-moonmoth.png",
+      "sourceHash": "a4efa639a82b0f55f29f378ee429c4474eb54175",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1448,
+        "height": 1086
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 56,
+        "top": 65,
+        "width": 1376,
+        "height": 979
+      },
+      "size": {
+        "width": 800,
+        "height": 569
+      },
+      "scale": 0.5813953488372093
+    },
+    "familiar.opaline_wyrmling.base": {
+      "id": "familiar.opaline_wyrmling.base",
+      "url": "assets/grove/familiar.opaline_wyrmling.base.webp",
+      "role": "familiar",
+      "species": "opaline_wyrmling",
+      "variant": "base",
+      "source": "creatures/opaline-wyrmling/opaline-wyrmling_base.png",
+      "sourceHash": "769495a6024daa2edeffed1b66d361504a058270",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1312,
+        "height": 1199
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 61,
+        "top": 8,
+        "width": 1185,
+        "height": 1179
+      },
+      "size": {
+        "width": 800,
+        "height": 796
+      },
+      "scale": 0.6751054852320675
+    },
+    "familiar.opaline_wyrmling.rare": {
+      "id": "familiar.opaline_wyrmling.rare",
+      "url": "assets/grove/familiar.opaline_wyrmling.rare.webp",
+      "role": "familiar",
+      "species": "opaline_wyrmling",
+      "variant": "rare",
+      "source": "creatures/opaline-wyrmling/opaline-wyrmling_rare_astral-opaline.png",
+      "sourceHash": "bd5ff378d306dcffedfc3fa52cbd6a68152f5023",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1311,
+        "height": 1200
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 60,
+        "top": 0,
+        "width": 1187,
+        "height": 1187
+      },
+      "size": {
+        "width": 800,
+        "height": 800
+      },
+      "scale": 0.6739679865206403
+    },
+    "familiar.lunabloom_fawn.base": {
+      "id": "familiar.lunabloom_fawn.base",
+      "url": "assets/grove/familiar.lunabloom_fawn.base.webp",
+      "role": "familiar",
+      "species": "lunabloom_fawn",
+      "variant": "base",
+      "source": "creatures/lunabloom-fawn/lunabloom-fawn_base.png",
+      "sourceHash": "8dc8362d0b2e0c66ed04abc8412c2aba152302a8",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1312,
+        "height": 1199
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 30,
+        "top": 26,
+        "width": 1188,
+        "height": 1149
+      },
+      "size": {
+        "width": 800,
+        "height": 774
+      },
+      "scale": 0.6734006734006734
+    },
+    "familiar.lunabloom_fawn.rare": {
+      "id": "familiar.lunabloom_fawn.rare",
+      "url": "assets/grove/familiar.lunabloom_fawn.rare.webp",
+      "role": "familiar",
+      "species": "lunabloom_fawn",
+      "variant": "rare",
+      "source": "creatures/lunabloom-fawn/lunabloom-fawn_rare_bloodmoon-lunabloom.png",
+      "sourceHash": "7c9f6212b4ac5ecda35360965775cd076fe2f8ea",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1312,
+        "height": 1199
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 17,
+        "top": 18,
+        "width": 1230,
+        "height": 1165
+      },
+      "size": {
+        "width": 800,
+        "height": 758
+      },
+      "scale": 0.6504065040650406
+    },
+    "familiar.fernwhorl.base": {
+      "id": "familiar.fernwhorl.base",
+      "url": "assets/grove/familiar.fernwhorl.base.webp",
+      "role": "familiar",
+      "species": "fernwhorl",
+      "variant": "base",
+      "source": "creatures/fernwhorl-guardian/fernwhorl-guardian_base.png",
+      "sourceHash": "cf49cfd73371de00c7c527c87bf1a2de662115ef",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1484,
+        "height": 1060
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 83,
+        "top": 63,
+        "width": 1295,
+        "height": 948
+      },
+      "size": {
+        "width": 800,
+        "height": 586
+      },
+      "scale": 0.6177606177606177
+    },
+    "familiar.fernwhorl.rare": {
+      "id": "familiar.fernwhorl.rare",
+      "url": "assets/grove/familiar.fernwhorl.rare.webp",
+      "role": "familiar",
+      "species": "fernwhorl",
+      "variant": "rare",
+      "source": "creatures/fernwhorl-guardian/fernwhorl-guardian_rare_mycelium-fernwhorl.png",
+      "sourceHash": "054c5cf11eb6b9c56e1ff9ef654b0abf52291892",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1484,
+        "height": 1060
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 82,
+        "top": 61,
+        "width": 1301,
+        "height": 953
+      },
+      "size": {
+        "width": 800,
+        "height": 586
+      },
+      "scale": 0.6149116064565718
+    },
+    "familiar.veilfin_drifter.base": {
+      "id": "familiar.veilfin_drifter.base",
+      "url": "assets/grove/familiar.veilfin_drifter.base.webp",
+      "role": "familiar",
+      "species": "veilfin_drifter",
+      "variant": "base",
+      "source": "creatures/veilfin-drifter/veilfin-drifter_base.png",
+      "sourceHash": "c59d726bf571dea5b8cb4ae540b6ef4b7b8d7a85",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 43,
+        "top": 64,
+        "width": 1176,
+        "height": 1138
+      },
+      "size": {
+        "width": 800,
+        "height": 774
+      },
+      "scale": 0.6802721088435374
+    },
+    "familiar.veilfin_drifter.rare": {
+      "id": "familiar.veilfin_drifter.rare",
+      "url": "assets/grove/familiar.veilfin_drifter.rare.webp",
+      "role": "familiar",
+      "species": "veilfin_drifter",
+      "variant": "rare",
+      "source": "creatures/veilfin-drifter/veilfin-drifter_rare_nebula-veilfin.png",
+      "sourceHash": "f715de51b3bf830797d19fd553c313ff06cb2298",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 73,
+        "top": 110,
+        "width": 1126,
+        "height": 1054
+      },
+      "size": {
+        "width": 800,
+        "height": 749
+      },
+      "scale": 0.7104795737122558
+    },
+    "familiar.lanternshell_nimbi.base": {
+      "id": "familiar.lanternshell_nimbi.base",
+      "url": "assets/grove/familiar.lanternshell_nimbi.base.webp",
+      "role": "familiar",
+      "species": "lanternshell_nimbi",
+      "variant": "base",
+      "source": "creatures/lanternshell-nimbi/lanternshell-nimbi_base.png",
+      "sourceHash": "abeab184bd1c164c1e74cb0f6c7cf28018a4a9fa",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1448,
+        "height": 1086
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 108,
+        "top": 89,
+        "width": 1250,
+        "height": 934
+      },
+      "size": {
+        "width": 800,
+        "height": 598
+      },
+      "scale": 0.64
+    },
+    "familiar.lanternshell_nimbi.rare": {
+      "id": "familiar.lanternshell_nimbi.rare",
+      "url": "assets/grove/familiar.lanternshell_nimbi.rare.webp",
+      "role": "familiar",
+      "species": "lanternshell_nimbi",
+      "variant": "rare",
+      "source": "creatures/lanternshell-nimbi/lanternshell-nimbi_rare_frostglass-nimbi.png",
+      "sourceHash": "05e0df9475774b1030b89399120228bec1b6a11c",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1448,
+        "height": 1086
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 108,
+        "top": 87,
+        "width": 1297,
+        "height": 950
+      },
+      "size": {
+        "width": 800,
+        "height": 586
+      },
+      "scale": 0.6168080185042406
+    },
+    "familiar.arcveil_pangolith.base": {
+      "id": "familiar.arcveil_pangolith.base",
+      "url": "assets/grove/familiar.arcveil_pangolith.base.webp",
+      "role": "familiar",
+      "species": "arcveil_pangolith",
+      "variant": "base",
+      "source": "creatures/arcveil-pangolith/arcveil-pangolith_base.png",
+      "sourceHash": "76af84d0774a170ef9d06b3e039b7030f1e522c8",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1536,
+        "height": 1024
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 16,
+        "top": 92,
+        "width": 1504,
+        "height": 885
+      },
+      "size": {
+        "width": 800,
+        "height": 471
+      },
+      "scale": 0.5319148936170213
+    },
+    "familiar.arcveil_pangolith.rare": {
+      "id": "familiar.arcveil_pangolith.rare",
+      "url": "assets/grove/familiar.arcveil_pangolith.rare.webp",
+      "role": "familiar",
+      "species": "arcveil_pangolith",
+      "variant": "rare",
+      "source": "creatures/arcveil-pangolith/arcveil-pangolith_rare_aurora-pangolith.png",
+      "sourceHash": "f847376e69292cf9b6149cb22fcd0f1cd2a0c050",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1536,
+        "height": 1024
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 18,
+        "top": 92,
+        "width": 1502,
+        "height": 887
+      },
+      "size": {
+        "width": 800,
+        "height": 472
+      },
+      "scale": 0.5326231691078562
+    },
+    "familiar.echoglass_pipbat.base": {
+      "id": "familiar.echoglass_pipbat.base",
+      "url": "assets/grove/familiar.echoglass_pipbat.base.webp",
+      "role": "familiar",
+      "species": "echoglass_pipbat",
+      "variant": "base",
+      "source": "creatures/echoglass-pipbat/echoglass-pipbat_base.png",
+      "sourceHash": "45e0f63fb2670e0296c93790a2f9111709368360",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 20,
+        "top": 74,
+        "width": 1216,
+        "height": 992
+      },
+      "size": {
+        "width": 800,
+        "height": 653
+      },
+      "scale": 0.6578947368421053
+    },
+    "familiar.echoglass_pipbat.rare": {
+      "id": "familiar.echoglass_pipbat.rare",
+      "url": "assets/grove/familiar.echoglass_pipbat.rare.webp",
+      "role": "familiar",
+      "species": "echoglass_pipbat",
+      "variant": "rare",
+      "source": "creatures/echoglass-pipbat/echoglass-pipbat_rare_dreamglass-pipbat.png",
+      "sourceHash": "d20b411e65c437da482115d7d0c4031f37bc6eb2",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 20,
+        "top": 72,
+        "width": 1217,
+        "height": 996
+      },
+      "size": {
+        "width": 800,
+        "height": 655
+      },
+      "scale": 0.657354149548069
+    },
+    "familiar.runebloom_axolume.base": {
+      "id": "familiar.runebloom_axolume.base",
+      "url": "assets/grove/familiar.runebloom_axolume.base.webp",
+      "role": "familiar",
+      "species": "runebloom_axolume",
+      "variant": "base",
+      "source": "creatures/runebloom-axolume/runebloom-axolume_base.png",
+      "sourceHash": "4e28761f9ddfc3cd6dd16b434806b59d56456bfd",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1312,
+        "height": 1199
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 59,
+        "top": 17,
+        "width": 1240,
+        "height": 1162
+      },
+      "size": {
+        "width": 800,
+        "height": 750
+      },
+      "scale": 0.6451612903225806
+    },
+    "familiar.runebloom_axolume.rare": {
+      "id": "familiar.runebloom_axolume.rare",
+      "url": "assets/grove/familiar.runebloom_axolume.rare.webp",
+      "role": "familiar",
+      "species": "runebloom_axolume",
+      "variant": "rare",
+      "source": "creatures/runebloom-axolume/runebloom-axolume_rare_pearldusk-axolume.png",
+      "sourceHash": "4fe1ff72423b1c53bbf6cee190871f68b26dee3c",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1312,
+        "height": 1199
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 60,
+        "top": 13,
+        "width": 1252,
+        "height": 1167
+      },
+      "size": {
+        "width": 800,
+        "height": 746
+      },
+      "scale": 0.6389776357827476
+    },
+    "familiar.starhollow_tapir.base": {
+      "id": "familiar.starhollow_tapir.base",
+      "url": "assets/grove/familiar.starhollow_tapir.base.webp",
+      "role": "familiar",
+      "species": "starhollow_tapir",
+      "variant": "base",
+      "source": "creatures/starhollow-tapir/starhollow-tapir_base.png",
+      "sourceHash": "b33933639a55069691c289e22bd4ec533e33e27f",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1465,
+        "height": 1074
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 75,
+        "top": 85,
+        "width": 1374,
+        "height": 925
+      },
+      "size": {
+        "width": 800,
+        "height": 539
+      },
+      "scale": 0.5822416302765647
+    },
+    "familiar.starhollow_tapir.rare": {
+      "id": "familiar.starhollow_tapir.rare",
+      "url": "assets/grove/familiar.starhollow_tapir.rare.webp",
+      "role": "familiar",
+      "species": "starhollow_tapir",
+      "variant": "rare",
+      "source": "creatures/starhollow-tapir/starhollow-tapir_rare_astral-hollow-tapir.png",
+      "sourceHash": "26f1435196b138523fe15155bffb7f46a185284e",
+      "maxSize": 800,
+      "sourceSize": {
+        "width": 1465,
+        "height": 1073
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 74,
+        "top": 77,
+        "width": 1378,
+        "height": 934
+      },
+      "size": {
+        "width": 800,
+        "height": 542
+      },
+      "scale": 0.5805515239477503
+    },
+    "decor.lantern": {
+      "id": "decor.lantern",
+      "url": "assets/grove/decor.lantern.webp",
+      "role": "decoration",
+      "source": "decorations/lantern-crystal-hanging.png",
+      "sourceHash": "5daa06ea07c2280863cd8163df7f531d42727ea8",
+      "maxSize": 600,
+      "sourceSize": {
+        "width": 1024,
+        "height": 1536
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 345,
+        "top": 46,
+        "width": 334,
+        "height": 1388
+      },
+      "size": {
+        "width": 144,
+        "height": 600
+      },
+      "scale": 0.4322766570605187
+    },
+    "decor.crystals": {
+      "id": "decor.crystals",
+      "url": "assets/grove/decor.crystals.webp",
+      "role": "decoration",
+      "source": "decorations/crystal-cluster.png",
+      "sourceHash": "26c7f99f7561d939ad468592c3c927a1172aacd5",
+      "maxSize": 500,
+      "sourceSize": {
+        "width": 1363,
+        "height": 1154
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 326,
+        "top": 155,
+        "width": 725,
+        "height": 841
+      },
+      "size": {
+        "width": 431,
+        "height": 500
+      },
+      "scale": 0.5945303210463734
+    },
+    "decor.mushrooms": {
+      "id": "decor.mushrooms",
+      "url": "assets/grove/decor.mushrooms.webp",
+      "role": "decoration",
+      "source": "decorations/mushroom-cluster.png",
+      "sourceHash": "6674a75a5adcb107f3a1e8dafbd4e95ed9721fe6",
+      "maxSize": 500,
+      "sourceSize": {
+        "width": 1312,
+        "height": 1199
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 262,
+        "top": 92,
+        "width": 794,
+        "height": 1026
+      },
+      "size": {
+        "width": 387,
+        "height": 500
+      },
+      "scale": 0.4873294346978557
+    },
+    "decor.moonlitBlossoms": {
+      "id": "decor.moonlitBlossoms",
+      "url": "assets/grove/decor.moonlitBlossoms.webp",
+      "role": "decoration",
+      "source": "ui/upgrade-icons/moonlit-blossoms.png",
+      "sourceHash": "2ea9985d342fa95576f8fa78c6141043a00ef494",
+      "maxSize": 420,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 16,
+        "top": 17,
+        "width": 1221,
+        "height": 1221
+      },
+      "size": {
+        "width": 420,
+        "height": 420
+      },
+      "scale": 0.343980343980344
+    },
+    "decor.flowerBush": {
+      "id": "decor.flowerBush",
+      "url": "assets/grove/decor.flowerBush.webp",
+      "role": "decoration",
+      "source": "decorations/flower-bush.png",
+      "sourceHash": "3fa2b10a981ea4080614e50de9787f5d389972bb",
+      "maxSize": 700,
+      "sourceSize": {
+        "width": 1312,
+        "height": 1199
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 78,
+        "top": 179,
+        "width": 1156,
+        "height": 861
+      },
+      "size": {
+        "width": 700,
+        "height": 521
+      },
+      "scale": 0.6055363321799307
+    },
+    "fx.heartPulse": {
+      "id": "fx.heartPulse",
+      "url": "assets/grove/fx.heartPulse.webp",
+      "role": "effect",
+      "source": "effects/heart-click-pulse.png",
+      "sourceHash": "4167e914db0fe6ad3cd43a5bfd3d528c2f74b1a7",
+      "maxSize": 700,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 77,
+        "top": 89,
+        "width": 1100,
+        "height": 1076
+      },
+      "size": {
+        "width": 700,
+        "height": 685
+      },
+      "scale": 0.6363636363636364
+    },
+    "fx.aetherParticle": {
+      "id": "fx.aetherParticle",
+      "url": "assets/grove/fx.aetherParticle.webp",
+      "role": "effect",
+      "source": "effects/aether-particle.png",
+      "sourceHash": "b2e9497e62dbfec55fbe706f4efb9684addf9871",
+      "maxSize": 128,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 540,
+        "top": 511,
+        "width": 174,
+        "height": 234
+      },
+      "size": {
+        "width": 95,
+        "height": 128
+      },
+      "scale": 0.5470085470085471
+    },
+    "fx.rareAura": {
+      "id": "fx.rareAura",
+      "url": "assets/grove/fx.rareAura.webp",
+      "role": "effect",
+      "source": "effects/rare-encounter-aura.png",
+      "sourceHash": "e5eb8761d7a307a39f41dc0ba1fa64753beeada0",
+      "maxSize": 700,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 218,
+        "top": 8,
+        "width": 828,
+        "height": 1214
+      },
+      "size": {
+        "width": 477,
+        "height": 700
+      },
+      "scale": 0.5766062602965404
+    },
+    "fx.summonPortal": {
+      "id": "fx.summonPortal",
+      "url": "assets/grove/fx.summonPortal.webp",
+      "role": "effect",
+      "source": "effects/summoning-portal.png",
+      "sourceHash": "4b8c6a4ed30a3a22b190c619c770761a70f0320e",
+      "maxSize": 700,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 113,
+        "top": 85,
+        "width": 1039,
+        "height": 1065
+      },
+      "size": {
+        "width": 683,
+        "height": 700
+      },
+      "scale": 0.6572769953051644
+    },
+    "ui.aether": {
+      "id": "ui.aether",
+      "url": "assets/grove/ui.aether.webp",
+      "role": "ui",
+      "source": "ui/aether-currency-icon.png",
+      "sourceHash": "14b727f9e4f383c5d5a77fec7b9d09943877e71b",
+      "maxSize": 256,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 448,
+        "top": 203,
+        "width": 358,
+        "height": 849
+      },
+      "size": {
+        "width": 108,
+        "height": 256
+      },
+      "scale": 0.30153121319199055
+    },
+    "ui.glassPanel": {
+      "id": "ui.glassPanel",
+      "url": "assets/grove/ui.glassPanel.webp",
+      "role": "ui",
+      "source": "ui/glass-panel-frame.png",
+      "sourceHash": "d31b1700221a668581e482e9c9797498d8784796",
+      "maxSize": 1983,
+      "sourceSize": {
+        "width": 1983,
+        "height": 793
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 50,
+        "top": 86,
+        "width": 1884,
+        "height": 615
+      },
+      "size": {
+        "width": 1884,
+        "height": 615
+      },
+      "scale": 1
+    },
+    "ui.nav.grove": {
+      "id": "ui.nav.grove",
+      "url": "assets/grove/ui.nav.grove.webp",
+      "role": "ui",
+      "source": "ui/nav-grove.png",
+      "sourceHash": "8ccf4cb31b26004d36b0373bf56f0bf97faa73b4",
+      "maxSize": 256,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 204,
+        "top": 225,
+        "width": 847,
+        "height": 847
+      },
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "scale": 0.3022432113341204
+    },
+    "ui.nav.bestiary": {
+      "id": "ui.nav.bestiary",
+      "url": "assets/grove/ui.nav.bestiary.webp",
+      "role": "ui",
+      "source": "ui/nav-bestiary.png",
+      "sourceHash": "172d5787b654e2a69a29e2558d9513f40546079d",
+      "maxSize": 256,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 155,
+        "top": 322,
+        "width": 945,
+        "height": 621
+      },
+      "size": {
+        "width": 256,
+        "height": 168
+      },
+      "scale": 0.2708994708994709
+    },
+    "ui.nav.summon": {
+      "id": "ui.nav.summon",
+      "url": "assets/grove/ui.nav.summon.webp",
+      "role": "ui",
+      "source": "ui/nav-summon.png",
+      "sourceHash": "d0ff3ddce3713482ff1cc922c8936e4054affeb5",
+      "maxSize": 256,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 240,
+        "top": 283,
+        "width": 774,
+        "height": 723
+      },
+      "size": {
+        "width": 256,
+        "height": 239
+      },
+      "scale": 0.330749354005168
+    },
+    "ui.upgrade.moonlitBlossoms": {
+      "id": "ui.upgrade.moonlitBlossoms",
+      "url": "assets/grove/ui.upgrade.moonlitBlossoms.webp",
+      "role": "ui",
+      "source": "ui/upgrade-icons/moonlit-blossoms.png",
+      "sourceHash": "2ea9985d342fa95576f8fa78c6141043a00ef494",
+      "maxSize": 256,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 16,
+        "top": 17,
+        "width": 1221,
+        "height": 1221
+      },
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "scale": 0.20966420966420968
+    },
+    "ui.upgrade.whisperingRoots": {
+      "id": "ui.upgrade.whisperingRoots",
+      "url": "assets/grove/ui.upgrade.whisperingRoots.webp",
+      "role": "ui",
+      "source": "environment/heartwood-tree.png",
+      "sourceHash": "b9eb3c7b7a16f643eaec0b122afcc04e36ce657f",
+      "maxSize": 256,
+      "region": [
+        500,
+        800,
+        360,
+        330
+      ],
+      "sourceSize": {
+        "width": 1312,
+        "height": 1199
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 500,
+        "top": 800,
+        "width": 360,
+        "height": 330
+      },
+      "size": {
+        "width": 256,
+        "height": 235
+      },
+      "scale": 0.7111111111111111
+    },
+    "ui.nav.options": {
+      "id": "ui.nav.options",
+      "url": "assets/grove/ui.nav.options.webp",
+      "role": "ui",
+      "source": "ui/nav-options.png",
+      "sourceHash": "54cf3df4304dd9054400fbe5768fdbc4166a4e37",
+      "maxSize": 256,
+      "sourceSize": {
+        "width": 1254,
+        "height": 1254
+      },
+      "hasAlpha": true,
+      "crop": {
+        "left": 206,
+        "top": 217,
+        "width": 841,
+        "height": 818
+      },
+      "size": {
+        "width": 256,
+        "height": 249
+      },
+      "scale": 0.30439952437574314
+    }
+  }
+}

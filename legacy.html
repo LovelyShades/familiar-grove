@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Familiar Grove (Legacy)</title>
+    <link rel="icon" href="data:," />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;0,700;1,400&family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div class="frame level-box">
+          <span class="level-icon" data-icon="grove"></span>
+          <div class="level-info">
+            <div class="level-label">Grove Level <span id="groveLevel">1</span></div>
+            <div class="bar"><div class="bar-fill" id="levelBar"></div></div>
+            <div class="level-sub" id="levelProgress">0 / 50</div>
+          </div>
+        </div>
+
+        <div class="title-box">
+          <h1>Familiar Grove</h1>
+          <div class="frame aether-box">
+            <span class="aether-icon" data-icon="aether"></span>
+            <span id="aetherCount" class="aether-count">0</span>
+            <span class="aether-unit">Aether</span>
+          </div>
+        </div>
+
+        <div class="frame rates-box">
+          <div><span id="perClick" class="rate-num">+1</span> / click</div>
+          <div><span id="perSec" class="rate-num">+0</span> / sec <span id="speedBadge" class="speed-badge" hidden></span></div>
+        </div>
+
+        <div class="frame cycle-box">
+          <span class="cycle-icon" id="cycleIcon" data-icon="moon"></span>
+          <div>
+            <div class="cycle-title">Verdant Cycle</div>
+            <div id="cycleTime" class="cycle-time">Day 1 · 6:00 PM</div>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="frame stage-wrap" id="stageWrap">
+          <div id="stage" class="stage"></div>
+          <div id="floaters" class="floaters"></div>
+          <div id="toasts" class="toasts" aria-live="polite"></div>
+          <div class="stage-hint" id="stageHint">Click the Heartwood Tree to gather Aether</div>
+          <button id="channelBtn" class="channel-btn" type="button">
+            <span data-icon="aether"></span>
+            <span>Channel Aether</span>
+          </button>
+        </section>
+
+        <aside class="frame side" id="sidePanel">
+          <h2 class="panel-title">Spells &amp; Familiars</h2>
+          <div id="spellCard"></div>
+
+          <h3 class="section-title" id="familiarsTitle">Summon Familiars</h3>
+          <div id="familiarList" class="familiar-list"></div>
+
+          <h3 class="section-title">Your Familiars</h3>
+          <div id="ownedRow" class="owned-row"></div>
+
+          <h3 class="section-title">Grove Upgrades</h3>
+          <div id="upgradeList" class="upgrade-list"></div>
+        </aside>
+      </main>
+
+      <nav class="bottom-nav" aria-label="Main">
+        <button class="nav-btn active" data-nav="grove" type="button"><span data-icon="grove"></span>Grove</button>
+        <button class="nav-btn" data-nav="bestiary" type="button"><span data-icon="book"></span>Bestiary</button>
+        <button class="nav-btn" data-nav="summon" type="button"><span data-icon="summon"></span>Summon</button>
+        <button class="nav-btn" data-nav="options" type="button"><span data-icon="gear"></span>Options</button>
+      </nav>
+    </div>
+
+    <!-- Options -->
+    <div class="modal" id="optionsModal" hidden>
+      <div class="modal-card frame" role="dialog" aria-modal="true" aria-labelledby="optionsTitle">
+        <button class="modal-close" type="button" data-close aria-label="Close options"><span data-icon="close"></span></button>
+        <h2 id="optionsTitle" class="panel-title">Options</h2>
+
+        <div class="option">
+          <div class="option-label">Appearance</div>
+          <div class="segmented" role="group" aria-label="Theme">
+            <button type="button" data-theme-btn="dark"><span data-icon="moon"></span>Dark</button>
+            <button type="button" data-theme-btn="light"><span data-icon="sun"></span>Light</button>
+          </div>
+        </div>
+
+        <div class="option">
+          <div class="option-label">Time Flow <span id="speedLabel" class="option-value">1×</span></div>
+          <input type="range" id="speedSlider" min="0" max="6" step="1" value="2" aria-label="Time speed" />
+          <div class="option-hint">Speeds up or slows down the Aether your familiars gather over time.</div>
+        </div>
+
+        <div class="option stats" id="statsBox"></div>
+
+        <div class="option danger">
+          <div class="option-label">Reset All</div>
+          <div class="option-hint">Wipes your grove, familiars, upgrades and settings. This cannot be undone.</div>
+          <button type="button" id="resetBtn" class="danger-btn">Reset Everything</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bestiary -->
+    <div class="modal" id="bestiaryModal" hidden>
+      <div class="modal-card modal-wide frame" role="dialog" aria-modal="true" aria-labelledby="bestiaryTitle">
+        <button class="modal-close" type="button" data-close aria-label="Close bestiary"><span data-icon="close"></span></button>
+        <h2 id="bestiaryTitle" class="panel-title">Bestiary</h2>
+        <div id="bestiaryGrid" class="bestiary-grid"></div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/legacy/main.js"></script>
+  </body>
+</html>

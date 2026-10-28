@@ -1,0 +1,423 @@
+/* Moonstone Glass: the light INTERFACE style (formerly "Silver Dawn").
+   It restyles UI elements only — panels, navigation, buttons, modals, cards,
+   progress bars and text. Nothing here may touch the forest scene: no filters,
+   overlays or opacity on .scene-host / canvas. Activated by <html data-theme="light">. */
+
+:root[data-theme='light'] {
+  --ink: #23264a;
+  --ink-soft: #464b72;
+  --ink-dim: #656a8c;
+  --teal: #157c78;
+  --teal-bright: #0e6f6b;
+  --teal-deep: #0b5654;
+  --violet: #6d58c7;
+  --gold-arrow: #6d58c7;
+
+  --glass: rgba(236, 238, 250, 0.66);
+  --glass-strong: rgba(232, 235, 248, 0.82);
+  --glass-card: rgba(255, 255, 255, 0.5);
+  --edge: rgba(98, 96, 160, 0.3);
+  --edge-strong: rgba(98, 96, 160, 0.45);
+  --edge-teal: rgba(21, 124, 120, 0.5);
+}
+
+:root[data-theme='light'] body {
+  background: #c9cde3;
+}
+
+:root[data-theme='light'] .glass {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.1) 45%),
+    var(--glass);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.85),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.25),
+    0 10px 28px rgba(40, 44, 90, 0.22);
+}
+
+:root[data-theme='light'] .sidebar,
+:root[data-theme='light'] .modal-card {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.15) 35%),
+    var(--glass-strong);
+}
+
+/* title floats over the scene: deep ink with a pale halo stays readable on any part of it */
+:root[data-theme='light'] .game-title {
+  color: #2a2c58;
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.85), 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+:root[data-theme='light'] .aether-amount {
+  color: #23264a;
+  text-shadow: none;
+}
+
+:root[data-theme='light'] .aether-icon,
+:root[data-theme='light'] .buy-crystal {
+  filter: drop-shadow(0 0 4px rgba(21, 124, 120, 0.35));
+}
+
+:root[data-theme='light'] .moon-glyph {
+  fill: #6d6fb0;
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.9));
+}
+
+:root[data-theme='light'] .progress {
+  background: rgba(98, 96, 160, 0.14);
+  border-color: rgba(98, 96, 160, 0.25);
+}
+
+:root[data-theme='light'] .progress-fill {
+  background: linear-gradient(90deg, #4ea8a2, #7fb8d8);
+  box-shadow: 0 0 8px rgba(90, 170, 190, 0.5);
+}
+
+:root[data-theme='light'] .level-icon {
+  background: rgba(21, 124, 120, 0.08);
+  filter: none;
+}
+
+:root[data-theme='light'] .rate-chip {
+  background: rgba(150, 200, 196, 0.28);
+  color: var(--ink-soft);
+}
+
+:root[data-theme='light'] .rate-chip.violet {
+  background: rgba(170, 160, 230, 0.25);
+  border-color: rgba(109, 88, 199, 0.4);
+}
+
+:root[data-theme='light'] .rate-chip.violet .rate-value {
+  color: #5a46b5;
+}
+
+/* cards */
+:root[data-theme='light'] .spell-card,
+:root[data-theme='light'] .upgrade-row {
+  border-color: rgba(98, 96, 160, 0.2);
+}
+
+:root[data-theme='light'] .spell-card:hover,
+:root[data-theme='light'] .upgrade-row:hover {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: rgba(98, 96, 160, 0.4);
+}
+
+:root[data-theme='light'] .frame-icon {
+  background: radial-gradient(circle at 50% 45%, rgba(150, 170, 255, 0.55), rgba(70, 76, 140, 0.92) 75%);
+  box-shadow: inset 0 0 12px rgba(160, 175, 255, 0.4), 0 0 6px rgba(98, 96, 160, 0.25);
+}
+
+:root[data-theme='light'] .familiar-tile .portrait {
+  background-color: rgba(70, 76, 140, 0.85);
+}
+
+:root[data-theme='light'] .panel-title {
+  color: #2e305e;
+  border-bottom-color: rgba(98, 96, 160, 0.2);
+}
+
+:root[data-theme='light'] .sidebar-section {
+  border-top-color: rgba(98, 96, 160, 0.18);
+}
+
+/* purchase buttons: sage-teal glass */
+:root[data-theme='light'] .buy-button {
+  color: #0f3f3d;
+  border-color: rgba(21, 124, 120, 0.45);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0) 60%),
+    rgba(140, 205, 196, 0.55);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), 0 2px 8px rgba(30, 90, 90, 0.15);
+}
+
+:root[data-theme='light'] .buy-button:hover:not(:disabled) {
+  border-color: rgba(14, 111, 107, 0.75);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0) 60%),
+    rgba(120, 196, 186, 0.7);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85), 0 0 14px rgba(40, 150, 145, 0.3);
+}
+
+:root[data-theme='light'] .buy-button:disabled {
+  color: #7b7f9c;
+  background: rgba(200, 203, 222, 0.6);
+  border-color: rgba(98, 96, 160, 0.2);
+}
+
+:root[data-theme='light'] .buy-divider {
+  background: rgba(15, 63, 61, 0.25);
+}
+
+/* navigation */
+:root[data-theme='light'] .nav-button:hover {
+  background: rgba(255, 255, 255, 0.45);
+  border-color: rgba(98, 96, 160, 0.3);
+}
+
+:root[data-theme='light'] .nav-button.active {
+  color: #0e6f6b;
+  background: linear-gradient(180deg, rgba(150, 215, 208, 0.55), rgba(150, 215, 208, 0.2));
+  box-shadow: 0 0 12px rgba(40, 150, 145, 0.25), inset 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+:root[data-theme='light'] .nav-button.active img {
+  filter: drop-shadow(0 0 4px rgba(21, 124, 120, 0.5));
+}
+
+:root[data-theme='light'] .nav-gem {
+  background: rgba(98, 96, 160, 0.4);
+}
+
+/* modal + shared bits */
+:root[data-theme='light'] .modal-backdrop {
+  background: rgba(150, 156, 200, 0.35);
+}
+
+:root[data-theme='light'] .modal-close {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+:root[data-theme='light'] .icon-button:hover {
+  box-shadow: 0 0 12px rgba(40, 150, 145, 0.3);
+}
+
+:root[data-theme='light'] .title-leaf {
+  background: linear-gradient(90deg, transparent, rgba(60, 62, 120, 0.5));
+}
+
+:root[data-theme='light'] .title-leaf::after,
+:root[data-theme='light'] .title-sprig {
+  background: #3e9c97;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.9);
+}
+
+:root[data-theme='light'] button:focus-visible {
+  outline-color: #0e6f6b;
+}
+
+/* options panel pieces */
+:root[data-theme='light'] .opt-section {
+  border-top-color: rgba(98, 96, 160, 0.18);
+}
+
+:root[data-theme='light'] .opt-segmented {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+:root[data-theme='light'] .opt-segmented button.active {
+  color: #0e6f6b;
+  background: linear-gradient(180deg, rgba(150, 215, 208, 0.6), rgba(150, 215, 208, 0.25));
+  box-shadow: 0 0 10px rgba(40, 150, 145, 0.2);
+}
+
+:root[data-theme='light'] .opt-switch {
+  background: rgba(98, 96, 160, 0.14);
+}
+
+:root[data-theme='light'] .opt-knob {
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(40, 44, 90, 0.3);
+}
+
+:root[data-theme='light'] .opt-switch.on {
+  background: rgba(60, 160, 152, 0.65);
+}
+
+:root[data-theme='light'] .opt-switch.on .opt-knob {
+  background: #ffffff;
+}
+
+:root[data-theme='light'] .options-modal input[type='range']::-webkit-slider-runnable-track {
+  border-color: rgba(98, 96, 160, 0.25);
+  background: linear-gradient(90deg, #4ea8a2, #7fb8d8) 0 / var(--fill, 50%) 100% no-repeat, rgba(98, 96, 160, 0.12);
+}
+
+:root[data-theme='light'] .options-modal input[type='range']::-moz-range-track {
+  background: rgba(98, 96, 160, 0.12);
+}
+
+:root[data-theme='light'] .opt-stats div {
+  border-bottom-color: rgba(98, 96, 160, 0.18);
+}
+
+:root[data-theme='light'] .opt-danger .opt-heading {
+  color: #a3365a;
+}
+
+:root[data-theme='light'] .opt-danger-btn {
+  color: #7d1e40;
+  background: rgba(240, 180, 200, 0.45);
+  border-color: rgba(170, 60, 100, 0.45);
+}
+
+:root[data-theme='light'] .opt-confirm {
+  background: rgba(240, 190, 210, 0.3);
+}
+
+:root[data-theme='light'] .opt-confirm-input {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* ------------------------------------------------------------------
+   Moonstone Glass surfaces: translucent silver-lavender with a faint blue
+   adularescent sheen, delicate bright rims, dark navy text, muted teal accents.
+   These rules come last and refine everything above. */
+
+:root[data-theme='light'] {
+  --ink: #1b1f45;
+  --ink-soft: #3a3f6c;
+  --ink-dim: #565b84;
+  --teal: #1c6d6a;
+  --teal-bright: #135e5b;
+  --glass: rgba(204, 207, 232, 0.6);
+  --glass-strong: rgba(198, 202, 230, 0.72);
+  --glass-card: rgba(238, 238, 252, 0.3);
+  --edge: rgba(255, 255, 255, 0.5);
+  --edge-strong: rgba(255, 255, 255, 0.62);
+  --edge-teal: rgba(28, 109, 106, 0.55);
+}
+
+:root[data-theme='light'] .glass {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(186, 204, 255, 0.08) 42%, rgba(214, 196, 255, 0.12) 72%, rgba(255, 255, 255, 0.04)),
+    var(--glass);
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    inset 0 0 0 1px rgba(40, 44, 100, 0.12),
+    0 12px 30px rgba(4, 6, 20, 0.4);
+}
+
+:root[data-theme='light'] .sidebar,
+:root[data-theme='light'] .modal-card {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.32), rgba(186, 204, 255, 0.08) 40%, rgba(214, 196, 255, 0.12) 75%, rgba(255, 255, 255, 0.05)),
+    var(--glass-strong);
+}
+
+/* the title floats over the (always dark) forest, so it stays luminous */
+:root[data-theme='light'] .game-title {
+  color: #f1f2ff;
+  text-shadow: 0 0 18px rgba(200, 196, 255, 0.55), 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+:root[data-theme='light'] .title-leaf {
+  background: linear-gradient(90deg, transparent, rgba(230, 228, 255, 0.7));
+}
+
+/* modals dim the forest a little; they never wash it out */
+:root[data-theme='light'] .modal-backdrop {
+  background: rgba(6, 8, 24, 0.5);
+}
+
+:root[data-theme='light'] .spell-card,
+:root[data-theme='light'] .upgrade-row {
+  background: var(--glass-card);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+:root[data-theme='light'] .spell-card:hover,
+:root[data-theme='light'] .upgrade-row:hover {
+  background: rgba(244, 244, 255, 0.44);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+:root[data-theme='light'] .rate-chip {
+  background: rgba(28, 109, 106, 0.12);
+  border-color: rgba(28, 109, 106, 0.4);
+}
+
+:root[data-theme='light'] .rate-chip.violet {
+  background: rgba(90, 70, 181, 0.1);
+}
+
+/* primary actions keep their weight: deep sage-teal with light text */
+:root[data-theme='light'] .buy-button {
+  color: #effcfa;
+  border-color: rgba(14, 82, 80, 0.6);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 55%),
+    rgba(30, 104, 102, 0.85);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 3px 10px rgba(10, 30, 50, 0.3);
+}
+
+:root[data-theme='light'] .buy-button:hover:not(:disabled) {
+  border-color: rgba(10, 70, 68, 0.85);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0) 55%),
+    rgba(24, 92, 90, 0.92);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 0 16px rgba(30, 120, 120, 0.35);
+}
+
+:root[data-theme='light'] .buy-button:disabled {
+  color: #4f5378;
+  background: rgba(170, 174, 204, 0.55);
+  border-color: rgba(60, 64, 120, 0.2);
+  box-shadow: none;
+}
+
+:root[data-theme='light'] .buy-divider {
+  background: rgba(239, 252, 250, 0.35);
+}
+
+:root[data-theme='light'] .buy-arrow {
+  fill: #d4ecff;
+}
+
+:root[data-theme='light'] .summon-button {
+  color: #f5f1ff;
+  border-color: rgba(70, 52, 140, 0.65);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 55%),
+    rgba(84, 64, 158, 0.86);
+}
+
+:root[data-theme='light'] .summon-button:hover {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0) 55%),
+    rgba(72, 54, 144, 0.92);
+}
+
+:root[data-theme='light'] .nav-button:hover {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+:root[data-theme='light'] .nav-button.active {
+  color: #135e5b;
+  background: linear-gradient(180deg, rgba(160, 222, 214, 0.5), rgba(160, 222, 214, 0.16));
+}
+
+:root[data-theme='light'] .shop-toolbar {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+:root[data-theme='light'] .level-next {
+  color: #165956;
+}
+
+/* text that sits directly on the forest stays light for contrast */
+:root[data-theme='light'] .floater {
+  color: #dffcff;
+  text-shadow: 0 0 10px rgba(111, 230, 220, 0.85), 0 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+:root[data-theme='light'] .first-hint {
+  background: rgba(204, 207, 232, 0.72);
+  border-color: rgba(255, 255, 255, 0.55);
+  color: #1b1f45;
+}
+
+:root[data-theme='light'] .first-hint .hint-sub {
+  color: #3a3f6c;
+}
+
+:root[data-theme='light'] .rate-chip.violet .rate-value {
+  color: #3a2a8c;
+}
+
+:root[data-theme='light'] .rate-chip .rate-value {
+  color: #0f5754;
+}
