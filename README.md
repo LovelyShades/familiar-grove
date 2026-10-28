@@ -6,7 +6,7 @@ a rare mutation to discover.
 
 **[▶ Watch the demo video](https://youtu.be/N1hPtyzu6Qc)** · **[Play it in your browser](https://lovelyshades.github.io/familiar-grove/)**
 
-[![Familiar Grove demo video](https://img.youtube.com/vi/N1hPtyzu6Qc/maxresdefault.jpg)](https://youtu.be/N1hPtyzu6Qc)
+[![Familiar Grove demo video](https://img.youtube.com/vi/N1hPtyzu6Qc/hqdefault.jpg)](https://youtu.be/N1hPtyzu6Qc)
 
 Built with React, TypeScript, PixiJS and Vite.
 
